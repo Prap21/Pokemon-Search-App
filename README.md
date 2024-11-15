@@ -1,4 +1,5 @@
 #Pokémon Search App
+
 Welcome to the Pokémon Search App! This is a simple web application that allows users to search for information about their favorite Pokémon using the PokéAPI. The app is designed to fetch and display details like a Pokémon's name, type, abilities, and more.
 ---
 
