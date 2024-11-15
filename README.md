@@ -37,8 +37,12 @@ Welcome to the Pokémon Search App! This is a simple web application that allows
 - ** Dynamic Rendering: The app dynamically updates the DOM to display the retrieved Pokémon data.
 - ** Error Handling: If a search query is invalid, the app shows an error message to guide the user.
 
+## How to View the Website
+You can view the website live at:  
+[Pokémon Search App](https://prap21.github.io/Pokemon-Search-App/)
+
 ```bash
-https://prap21.github.io/Pokemon-Search-App/
+clone https://prap21.github.io/Pokemon-Search-App/
 ```
 ---
 Contact Me:
