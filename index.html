@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Pokémon Search</h1>
+
+    <!-- Input for Pokémon name or ID -->
+    <div id="pokemon-search" class="pokemon-search">
+        <label for="search-input">Enter Pokémon Name or ID:</label>
+        <input type="text" id="search-input" placeholder="e.g. Pikachu or 25" is required>
+        <button id="search-button">Search</button>
+    </div>    
+
+    <!-- Pokémon details -->
+    <div id="pokemon-details" class="pokemon-details">
+        <div class="info">
+            <h2>Name: <span id="pokemon-name">N/A</span></h2>
+            <p>ID: <span id="pokemon-id">N/A</span></p>
+            <p>Weight: <span id="weight">N/A</span></p>
+            <p>Height: <span id="height">N/A</span></p>
+            <p><span id="types" style="display: none;"></span></p>
+            <!-- Pokémon image -->
+            <img id="sprite" src="" alt="Pokémon Image" style="display: none;">
+        </div>
+
+        <!-- Pokémon stats -->
+        <div class="stats">
+            <p>HP: <span id="hp">N/A</span></p>
+            <p>Attack: <span id="attack">N/A</span></p>
+            <p>Defense: <span id="defense">N/A</span></p>
+            <p>Special Attack: <span id="special-attack">N/A</span></p>
+            <p>Special Defense: <span id="special-defense">N/A</span></p>
+            <p>Speed: <span id="speed">N/A</span></p>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
